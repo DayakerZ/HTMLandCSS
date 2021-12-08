@@ -1,0 +1,14 @@
+.p1{
+    width: 30vw;
+    background-color: bisque;
+    float: left;
+    
+}
+.p2{
+    width: 30vw;
+    background-color: rgb(181, 216, 180);
+    float: left;
+}
+.p3{
+    clear: both;
+}

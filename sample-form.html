@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style-form.css">
+        <link rel="icon" type="image/x-icon" href="/images/daya-facicon.png">
+
+    </head>
+    <body>
+        
+
+        <div id="form-inner-div" align="center">
+            <form id="form" action="">
+                <table id="form-table" >
+                    <caption style="color:whitesmoke;">Survey Form</caption>
+                    <tr>
+                        <td>Enter your Name </td>
+                        <!--placeholder helps to guide user to enter specific content -->
+                        <!--size attribute specifies the size of the input text box to be entered-->
+                        <!--maxlength restricts the size of the content to be typed-->
+                        <td><input type="text" name="user-name" placeholder="type your full name here.." size="20" maxlength="20" minlength="2" required></td>
+                    </tr>
+                    <tr>
+                        <td>Enter your Email</td>
+                        <td><input type="email" name="user-email" placeholder="type your email here.." size="20" maxlength="20" minlength="5" required></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" name="user-password" placeholder="Enter your password.." size="20" maxlength="20" minlength="8" autocomplete="off" required></td>
+                    </tr>
+                    <tr >
+                        <!--checked attribute by default checks the provided radio button-->
+                        <td>Male <input type="radio" name="user-gender" value="Male" checked></td>
+                        <td >Female <input type="radio" name="user-gender" value="Male"></td>
+                        <td>Others <input type="radio" name="user-gender" value="Male"></td>
+                    </tr>
+                    <tr>
+                        <td>Preffered Time : </td>
+                        <td>Morning <input type="checkbox" name="user-prefferd-time1" value="Morning" checked></td>
+                        <td>Evening <input type="checkbox" name="user-prefferd-time2" value="Evening"></td>
+                    </tr>
+                    <tr>
+                        <td>Select your country</td>
+                        <td>
+                            <select  name="country" id="" required>
+                                <option value="">Select</option>
+                                <option value="India">India</option>
+                                <option value="United States">United States</option>
+                                <option value="United Kingdom">United Kingdom</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr text-align="center">
+                        <td>Preffered language : </td>
+                        <td><input list="language" name="user-languages"></td>
+                        <datalist id="language">
+                            <select name="languages" id="" required multiple>
+                                <option value="">
+                                <option value="English">
+                                <option value="Hindi">
+                                <option value="Telugu">
+                            </select>
+                        </datalist>
+                    </tr>
+                    <tr>
+                        <td valign="top">Feedback</td>
+                        <td><textarea name="feedback" id="" cols="30" rows="10" placeholder="Enter your feedback" spellcheck="true"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input type="submit">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+           </div>
+       
+    </body>
+</html>
