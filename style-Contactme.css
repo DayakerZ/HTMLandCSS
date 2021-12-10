@@ -1,0 +1,54 @@
+
+.outer{
+    background-image: url(images/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+th{
+    padding: 10px;
+    text-align: left;
+}
+.inner-two{
+    border: none;
+    width: 500px;
+    background-color: lightgray;
+    box-shadow: 4px 5px 4px;
+
+}
+table{
+    margin: 30px;
+    font-size: 18px;
+  
+}
+.input{
+    padding: 8px;
+    width: 245px;
+    border-radius: 5px;
+    border: none;
+}
+#btn{
+    color: white;
+    background-color:grey;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+#btn-con{
+    text-align: center;
+    border-bottom: 3px 2px 4px;
+}
+textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+caption{
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}

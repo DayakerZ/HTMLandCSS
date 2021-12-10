@@ -10,3 +10,8 @@ p{
     font-size: 1.5rem;
     color: blueviolet;
 }
+p::after{
+    content: '>';
+    background-color: aqua;
+    display: inline-block;
+}

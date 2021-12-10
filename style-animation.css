@@ -1,0 +1,22 @@
+h1{
+    background: dodgerblue;
+    padding: 20px;
+    width: 300px;
+    color: #fff;
+    animation-name: changecolor;
+    animation-duration: 5000ms;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-delay: 2000ms;
+    animation-fill-mode: backwards;
+    animation-play-state: paused;
+}
+h1:hover{
+    animation-play-state: running;
+}
+@keyframes changecolor {
+    from{}
+    to{
+        background: seagreen;width: 400px;
+    }
+}

@@ -1,0 +1,16 @@
+#div1{
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid black;
+    background-image: linear-gradient(to left bottom,red 50%,
+    blue 90%,green 95%);
+}
+#div2{
+    width: 40vw;
+    height: 40vh;
+    border: 1px solid black;
+    background-image: radial-gradient();
+    position: relative;
+    top: 20px;
+
+}

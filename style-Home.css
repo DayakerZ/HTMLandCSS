@@ -1,0 +1,37 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/home-image2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+td{
+    padding: 8px;
+}
+table{
+    font-size: 25px;
+    color: black;
+    margin-left: 300px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px;
+}
+a:nth-child(1){
+    color:  #0077b5;
+}
+a:nth-child(2){
+    color:   #833AB4;
+}
+a:nth-child(3){
+    color:  #4267B2;
+}
+a:nth-child(3){
+    color: #1DA1F2;
+}

@@ -1,0 +1,73 @@
+body{
+    background-image: url(images/aboutme.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: contain;
+}
+#parent{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#container-one{
+    width: fit-content;
+    margin: 20px;
+    font-size: 20px;
+    background-color: lightgrey;
+    box-shadow: 5px 4px 5px;
+    border-top-left-radius: 10px;
+}
+#container-one:hover{
+    box-shadow: -5px 4px 5px;
+}
+#container-two{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    display: flex;;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: grey;
+    box-shadow: 5px 4px 5px;
+}
+.inner-container{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    /* display: flex;
+    justify-content: center; */
+    margin: 20px;
+    background-color: gainsboro;
+    box-shadow: 5px 4px 5px;
+}
+.inner-container:hover{
+    color: whitesmoke;
+    background-color: lightgrey;
+}
+th{
+    padding: 10px;
+    /* border: 1px solid black; */
+    text-align: left;
+
+}
+td{
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+/* progress{
+    background: black;
+} */
